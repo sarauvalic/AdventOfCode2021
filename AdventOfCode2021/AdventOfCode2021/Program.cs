@@ -1,8 +1,8 @@
 ﻿using AdventOfCode2021.Days;
 
 Console.WriteLine("Advent of Code 2021");
-var day = new Day01();
-var input = File.ReadAllLines("C:\\C\\Repos\\AdventOfCode\\AdventOfCode2021\\AdventOfCode2021\\AdventOfCode2021\\Inputs\\Input01.txt");
+var day = new Day02();
+var input = File.ReadAllLines("C:\\C\\Repos\\AdventOfCode\\AdventOfCode2021\\AdventOfCode2021\\AdventOfCode2021\\Inputs\\Input02.txt");
 
 Console.WriteLine("Part 1:");
 Console.WriteLine(day.SolvePart1(input));
